@@ -1,4 +1,4 @@
-# Ruby on rails sample application
+# Ruby on Rails Website
 
 Run rails server with following command
 
