@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$twitterBlue: #4099FF;
 $pureWhite: #fff; 
 
 @mixin box_sizing {
@@ -17,18 +18,37 @@ html {
   overflow-y: scroll;
   height: 100%;
   width: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
   height: 100%;
   width: 100%;
   margin: 0;
   background-image: url(image_path('Wavelio-splashpage02-bg.jpg'));
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.container {
+  background-color: $pureWhite;
+  margin: 0px auto;
+  padding-top: 100px;
+  padding-right:24px;
+  padding-left:24px;
+  padding-bottom: 100px;
+}
+
+.whiteBody {
+  font-size: 1.7em;
+  letter-spacing: -2px;
+  color: $pureWhite;
+  line-height: 2.0em;
+}
+
+.navPadding {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 section {
