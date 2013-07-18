@@ -1,18 +1,15 @@
 <% provide(:title, @user.name) %>
-<div class="row">
-  <aside class="span4">
-    <section>
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-      </h1>
-    </section>
-
-  </aside>
-  <div class = "center">
-  	<p>
-  		Sign in Name : <%= @user.name%><br>
-  		Sign in user id : <%= @user.email%>		
-  	<p>
-  </div>
+<div class="container">
+<p>
+  Dear <%= @user.name%>,<br/>
+  <br>
+  Thank you for signing up with Verselytic. We will review your request and send you an access code which can be used for logging in.<br/>
+  Thank you again for wanting to be part of our success.<br/>
+  <br/>
+  Sincerely,<br/>
+  The Verselytic Team<br/>
+  <br/>
+  <br/>
+  <%= link_to "Click Here to go back to home", root_path %>
+</p>
 </div>
