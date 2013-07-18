@@ -1,0 +1,47 @@
+
+---
+users:
+  columns:
+  - id
+  - name
+  - email
+  - created_at
+  - updated_at
+  - password_digest
+  - remember_token
+  records: 
+  - - 1
+    - Satheeshkumar Karuppusamy
+    - satheesh.bbk@gmail.com
+    - '2013-07-04 20:36:56.730895'
+    - '2013-07-10 05:40:35.034599'
+    - $2a$10$yx5F/1KNcvhSmzm1CTZhS.RHYoYuYjXtahaDUzjA/sqBKQpzDJMFK
+    - 9nnMvKNMxcsGk4G13Rl3_w
+  - - 2
+    - sriram ganesh
+    - sriramga@usc.edu
+    - '2013-07-10 04:04:38.988185'
+    - '2013-07-10 05:40:35.914167'
+    - $2a$10$ubIYpfu90yNDredkuJXdCOBe2zIjeuM1G3XKQBPC3h4u8zb6qQa0u
+    - 3ULD7N6O_dbu3UypqvRCNw
+  - - 3
+    - Satheeshkumar Karuppusamy
+    - satheeshusc@gmail.com
+    - '2013-07-10 05:42:51.888036'
+    - '2013-07-10 05:42:51.888036'
+    - $2a$10$uEmlpdTdy3W7v042Ha/Ftu9WYfM6raHwpJRtf8aOvrk6bEzIKPxxC
+    - jf1McKTMv2D00zxT5k_O6w
+  - - 4
+    - sample user
+    - sample@gmail.com
+    - '2013-07-13 09:16:12.462732'
+    - '2013-07-13 09:16:12.462732'
+    - $2a$10$Hk9dwSw3EuzbJwwpwj3moOwuztXH6VKidFouqzVa5cSO4A4kO5POW
+    - ud2Erd4sXu_KZ3w3ZAPSHg
+  - - 5
+    - sri
+    - srivats@gmail.com
+    - '2013-07-13 18:54:25.056950'
+    - '2013-07-13 18:54:25.056950'
+    - $2a$10$GnJ6RHQykC51ysGZ8X9KY.p0NSaddabLUa1wcsLPqLaizksdYyi/i
+    - j--garyz1ARto95adBmP0w
